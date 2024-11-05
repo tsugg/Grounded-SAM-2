@@ -1,0 +1,72 @@
+# Version control
+.git
+.gitignore
+
+# Python cache files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv
+env
+.env
+
+# IDE specific files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build and distribution files
+build
+dist
+*.egg-info
+
+# Test and documentation
+tests
+docs
+*.md
+!README.md
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large data files and models
+*.pth
+*.onnx
+*.pt
+dataset
+checkpoints
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Custom project files
+config.yaml
+results
+output
+
+# Exclude assets, images, and text files
+assets/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.txt
+*.json
+*.csv
